@@ -1,0 +1,56 @@
+#back
+{
+    background: url(back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+      width:auto;
+      height:450px;
+}
+#road
+{
+   background:url(road.jpg);
+
+}
+#img
+{
+    width:150px;
+}
+
+#btn
+{
+    background-color:aqua;
+    width:120px;
+    height:70px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+#dbtn
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-spacing: 2in;
+}
+
+
+#btn:hover{
+    background-color:lightpink;
+}
+@media (max-width:480px)
+{
+    #back
+{
+    background: url(back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+      width:auto;
+      height:450px;
+}
+}
